@@ -33,18 +33,18 @@ h2 {
 }
 
 .cntr {
-    color: white;
+    color: rgb(255, 249, 243);
     margin-top: 25px;
     margin-bottom: 25px;
     padding: 15px;
-    border: dotted white;
+    border: dotted rgb(255, 249, 243);
     border-radius: 10px;
 }
 
 .nm {
     font-family: 'lucida calligraphy';
     font-size: 35px;
-    color: white;
+    color: rgb(255, 249, 243);
     padding-right: 200px;
     padding-left: 50px;
 }
@@ -62,6 +62,7 @@ h2 {
 .ppc {
     margin-top: 200px;
     margin-right: 90px;
+    padding: 5px;
     height: 500px;
     border-radius: 50%;
     display: inline-block;
@@ -91,6 +92,7 @@ p {
 }
 
 .pht {
-    margin: 10px;
-    padding: 20px;
+    margin-left: 30px;
+    border: 10px;
+    border-radius: 30px;
 }
