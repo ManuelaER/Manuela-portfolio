@@ -5,7 +5,7 @@ body {
 nav {
     border: double 10px  rgb(255, 249, 243);
     border-radius: 20px;
-    padding: 25px;
+    padding: 15px;
     background-color: rgb(194, 0, 0);
     font-family: 'lucida sans' ;
     justify-content: space-around;
@@ -16,11 +16,20 @@ nav {
 }
 
 h1 {
-    font-family: 'lucida calligraphy' ;
+    font-family: 'lucida bright';
+    color:  rgb(194, 0, 0);
     justify-content: space-around;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
+}
+
+h2 {
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: 'lucida sans';
+    color:  rgb(194, 0, 0);
 }
 
 .cntr {
@@ -33,7 +42,8 @@ h1 {
 }
 
 .nm {
-    font-size: 30px;
+    font-family: 'lucida calligraphy';
+    font-size: 35px;
     color: white;
     padding-right: 200px;
     padding-left: 50px;
@@ -41,17 +51,17 @@ h1 {
 
 .bls {
     margin-top: 300px;
-    margin-left: 70px;
-    font-family: 'lucida sans';
+    margin-left: 90px;
+    font-family: 'lucida bright';
     font-size: 20px;
     display: inline-block;
     float: left;
     width: 500px;
 }
 
-img {
+.ppc {
     margin-top: 200px;
-    margin-right: 70px;
+    margin-right: 90px;
     height: 500px;
     border-radius: 50%;
     display: inline-block;
@@ -59,3 +69,29 @@ img {
     float: right;
 }
 
+.mh {
+    margin-top: 230px;
+    margin-left: 70px;
+}
+
+.lft {
+    margin: 80px;
+    padding: 30px;
+    border: double  rgb(194, 0, 0) 10px;
+    border-radius: 20px;
+}
+
+img {
+    height: 200px;
+}
+
+p {
+    margin: 10px;
+    padding: 20px;
+    font-family: 'lucida bright';
+}
+
+.pht {
+    margin: 10px;
+    padding: 20px;
+}
