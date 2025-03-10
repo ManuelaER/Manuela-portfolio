@@ -51,7 +51,7 @@ h2 {
 
 .bls {
     margin-top: 300px;
-    margin-left: 90px;
+    margin-left: 110px;
     font-family: 'lucida bright';
     font-size: 20px;
     display: inline-block;
@@ -61,7 +61,7 @@ h2 {
 
 .ppc {
     margin-top: 200px;
-    margin-right: 90px;
+    margin-right: 110px;
     padding: 5px;
     height: 500px;
     border-radius: 50%;
@@ -93,7 +93,6 @@ p {
 }
 
 .pht {
-    feature-about
     margin-left: 30px;
     border: 10px;
     border-radius: 30px;
