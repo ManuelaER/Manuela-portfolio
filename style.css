@@ -78,6 +78,7 @@ h2 {
     margin: 80px;
     padding: 30px;
     border: double  rgb(194, 0, 0) 10px;
+    border-radius: 20px;
 }
 
 img {
