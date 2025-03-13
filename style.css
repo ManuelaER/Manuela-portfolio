@@ -33,11 +33,11 @@ h2 {
 }
 
 .cntr {
-    color: white;
+    color: rgb(255, 249, 243);
     margin-top: 25px;
     margin-bottom: 25px;
     padding: 15px;
-    border: dotted white;
+    border: dotted rgb(255, 249, 243);
     border-radius: 10px;
     justify-content: flex-end;
 }
@@ -45,7 +45,7 @@ h2 {
 .nm {
     font-family: 'lucida calligraphy';
     font-size: 35px;
-    color: white;
+    color: rgb(255, 249, 243);
     padding-right: 200px;
     padding-left: 50px;
 }
@@ -63,6 +63,7 @@ h2 {
 .ppc {
     margin-top: 200px;
     margin-right: 90px;
+    padding: 5px;
     height: 500px;
     padding: 5px;
     border-radius: 50%;
@@ -80,6 +81,7 @@ h2 {
     margin: 80px;
     padding: 30px;
     border: double  rgb(194, 0, 0) 10px;
+    border-radius: 20px;
 }
 
 img {
@@ -101,5 +103,6 @@ p {
 .frm {
     margin: 80px;
     padding: 30px;
-    border: double  rgb(194, 0, 0) 10px
+    border: double  rgb(194, 0, 0) 10px;
+    border-radius: 30px;
 }
