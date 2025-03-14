@@ -19,14 +19,14 @@ h1 {
     font-family: 'lucida bright';
     color:  rgb(194, 0, 0);
     justify-content: space-around;
-    text-align: center;
     display: flex;
+    text-align: center;
     flex-wrap: wrap;
 }
 
 h2 {
     margin: 10px;
-    padding: 20px;
+    padding: 10px 20px;
     border-radius: 20px;
     font-family: 'lucida sans';
     color:  rgb(194, 0, 0);
@@ -39,7 +39,6 @@ h2 {
     padding: 15px;
     border: dotted rgb(255, 249, 243);
     border-radius: 10px;
-    justify-content: flex-end;
 }
 
 .nm {
@@ -101,8 +100,44 @@ p {
 }
 
 .frm {
-    margin: 80px;
-    padding: 30px;
-    border: double  rgb(194, 0, 0) 10px;
-    border-radius: 30px;
+    display: flex;
+    margin: 5em;
+    padding: 3rem 10rem;
+    background-color: rgb(194, 0, 0);
+    border: double  rgb(255, 249, 243) 30px;
+    border-radius: 5rem;
+    place-items: center;
+    justify-content: center
+}
+
+form {
+    text-align: center;
+    font-family: lucida sans;
+    font-weight: bold;
+    color: rgb(255, 249, 243);
+}
+
+input[type=submit] {
+    font-family: 'lucida sans';
+    font-weight: bold;
+    background-color: rgb(97, 0, 0);
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 80px;
+}
+
+input[type=text] {
+    size: 50;
+}
+
+.sccs {
+    margin: 100px;
+    padding: 60px;
+    display:;
+    align-items: center;
+    font-family: 'lucida calligraphy';
+    color: white;
+    background-color: rgb(194, 0, 0);
+    border: double rgb(255, 249, 243) 30px;
+    border-radius: 80px;
 }
